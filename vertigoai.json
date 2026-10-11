@@ -1,0 +1,20 @@
+{
+  "domain": "VertigoAI educational simulation",
+  "actions": [
+    "NO_FEEDBACK",
+    "GENTLE_HAPTIC_FEEDBACK",
+    "APPROVED_MOVEMENT_MODIFICATION",
+    "HUMAN_REVIEW"
+  ],
+  "approved_options": {
+    "SIM_SEATED_VERSION": "Fictional clinician-approved seated exercise option for the simulated demo only."
+  },
+  "rules": [
+    "Recommend only an action listed in actions.",
+    "Movement modifications must reference an approved option available in the scenario.",
+    "Synthetic motion data cannot establish vertigo, dizziness, falls, or clinical effectiveness.",
+    "Recommendations are proposals for review and must not control a wearable.",
+    "Mandatory safety escalation overrides agent agreement.",
+    "Missing critical information prevents approval."
+  ]
+}

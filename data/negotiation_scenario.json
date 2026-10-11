@@ -1,0 +1,35 @@
+{
+  "scenario_id": "simulated-negotiation-001",
+  "simulated": true,
+  "patient_context": {
+    "rehabilitation_plan": "Fictional exercise plan for an educational simulation",
+    "exercise_in_progress": true,
+    "available_approved_options": [
+      "SIM_SEATED_VERSION"
+    ],
+    "preferences": [
+      "Prefers standing practice to work toward independence",
+      "Will accept a brief vibration cue but finds repeated cues distracting",
+      "Will accept the seated option but finds it less engaging"
+    ],
+    "reported_emergency_symptoms": false,
+    "simulated_plan_guidance": {
+      "permitted_choices": "Continuing without feedback, proposing one gentle cue, and proposing the seated option are all permitted in this scenario.",
+      "selection_guidance": "Weigh the competing goals using the supplied evidence. No option has been established as best.",
+      "human_review": "Available if the agents cannot resolve the tradeoffs.",
+      "safety": "A mandatory stop instruction always overrides these options."
+    }
+  },
+  "evidence": {
+    "E1": "Movement evidence will come from the saved simulated model prediction. The prediction does not establish danger.",
+    "E2": "In this fictional plan, standing practice supports the participant's goal of completing the activity independently.",
+    "E3": "The fictional approved seated option reduces the standing demands of the task but provides less standing practice.",
+    "E4": "During an earlier simulated session, the participant reported that one gentle cue helped them notice their movement.",
+    "E5": "During an earlier simulated session, repeated cues distracted the participant and interrupted the exercise.",
+    "E6": "The participant accepts all three permitted options but prefers standing without repeated interruptions.",
+    "E7": "The supplied fictional plan permits all three options and does not rank them. There is no known missing critical information.",
+    "E8": "No emergency symptoms or mandatory stop instruction are reported in this simulated scenario."
+  },
+  "mandatory_escalation": false,
+  "missing_critical_information": []
+}
